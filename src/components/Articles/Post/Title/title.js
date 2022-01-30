@@ -1,6 +1,8 @@
+import css from "../../articles.module.css"
+
 function Title({title}) {
     return (
-        <h2>{title}</h2>
+        <h2 className={css.Title}>{title}</h2>
     )
 }
 

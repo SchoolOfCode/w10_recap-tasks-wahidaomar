@@ -1,6 +1,7 @@
+import { LikeFilled } from "@ant-design/icons"
 function LikeButton() {
     return (
-        <button className="like-button">Like 👍</button>
+        <LikeFilled size="large"/>
     )
 }
 
